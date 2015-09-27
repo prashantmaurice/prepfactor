@@ -1,0 +1,88 @@
+/*----index page---------------*/
+body{
+	padding:0px;
+	margin:0px;
+}
+.intro_tab_cont{
+	/*background-color:#0099FF;*/
+	background-color:#FFFFFF;
+	width:100%;
+	height:80px;
+	position:relative;	
+}
+.intro_tab{/*--*/
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+#intro_topbar_cont{
+	background-color:#FFFFFF;
+	height:80px;
+}
+#intro_topbar{
+	height:80px;	
+}
+
+.intro_toplogo{
+	width:250px;
+	height:80px;
+	position:absolute;
+	background-image:url(../img/top_logo.png);
+}
+#intro_login_cont{
+	left:500px;
+	width:500px;
+	height:60px;
+	position:absolute;
+	z-index:21;
+	top:0px;
+	padding-top:20px;
+}
+.login_form_input{
+	padding: 7px 6px;
+	background-color: #fff;
+	border: 1px solid #DDD;
+	border-image: initial;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	color: #656565;
+}
+.form_signin{
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FEFEFE;
+	height: 33px;
+	text-align: center;
+	display: inline-block;
+	line-height: 33px;
+	padding: 0 20px;
+	background-position: 0 0;
+	border: 1px solid #3573A8;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background-image:url(../img/sibmit_button_bg.png);
+}
+#topbar_login_bottomlinks{
+	width:400px;
+	font-size:12px;
+	color:#FF0000;
+	font-family:Arial, Helvetica, sans-serif, "Headline One";
+	
+	/*border:thin;
+	border-color:#999900;
+	border-width:1px;
+	border-style:solid;*/
+
+
+}
+#intro_menu_cont{
+	height:300px;
+	background-color:#0099FF;
+}
+#intro_menu{
+	height:30px;
+}

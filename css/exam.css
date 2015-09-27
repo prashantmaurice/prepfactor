@@ -1,0 +1,158 @@
+/*----index page---------------*/
+body{
+	padding:0px;
+	margin:0px;
+}
+.exam_tab_cont{
+	/*background-color:#0099FF;*/
+	background-color:#FFFFFF;
+	width:100%;
+	height:40px;
+	position:relative;	
+}
+.exam_tab{/*--*/
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+#exam_topbar_cont{
+	background-color:#33363B;
+	height:40px;
+	border-bottom-color:#FF6600;
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+}
+#exam_topbar{
+	height:80px;	
+}
+
+.exam_toplogo{
+	width:200px;
+	height:40px;
+	position:absolute;
+	background-image:url(../img/exam_top_logo.png);
+}
+.exam_topbaricon_cont{
+	width:400px;
+	height:40px;
+	position:absolute;
+	right:0px;
+}
+.exam_topbaricon_each{
+	width:34px;
+	height:34px;
+	margin:3px;
+	background-color:#2A2B2F;
+	color:#FFFFFF;
+	float:right;
+	font-size:24px;
+}
+
+#exam_login_cont{
+	left:500px;
+	width:500px;
+	height:60px;
+	position:absolute;
+	z-index:21;
+	top:0px;
+	padding-top:20px;
+}
+#exam_searchicon{
+	background-image:url(../img/exam_icons.png);
+	background-position:-5px -5px;
+}
+#login_details{
+	color:#FFFFFF;
+	margin-top:10px;
+	font-size:12px;
+
+}
+
+
+.exam_logout{
+	font-size: 10px;
+	font-weight: 700;
+	float:right;
+	text-transform: uppercase;
+	color: #FEFEFE;
+	height: 25px;
+	text-align: center;
+	display: inline-block;
+	line-height: 25px;
+	padding: 0 20px;
+	margin-top:5px;
+	margin-right:10px;
+	background-position: 0 0;
+	border: 1px solid #3573A8;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background-image:url(../img/sibmit_button_bg.png);
+}
+#exam_maintable{
+	width:100%;
+	min-height:500px;
+	height:80%;
+	
+
+}
+#exam_table_leftcont{
+	width:100px;vertical-align:top;
+}
+#exam_table_rightcont{
+	vertical-align:top;
+}
+#exam_lefticon{
+	width:60px;
+	height:300px;
+	background-color:#0099FF;
+	top:10px;
+	left:10px;
+	position:relative;
+
+}
+.exam_lefticon_each{
+	width:60px;
+	height:60px;
+	background-color:#0099CC;
+	position:relative;
+	background-image:url(../img/left_column_compress.png);
+
+}
+#exam_lefticon_overview{
+	background-position:0px 0px;
+}
+#exam_lefticon_individual{
+	background-position:0px -60px;
+}
+#exam_lefticon_save{
+	background-position:0px -120px;
+}
+.exam_bottom_buttons{
+	font-size: 14px;
+	font-weight: 700;
+	float:right;
+	text-transform: uppercase;
+	color: #FEFEFE;
+	height: 35px;
+	text-align: center;
+	display: inline-block;
+	line-height: 35px;
+	padding: 0 20px;
+	margin-top:5px;
+	margin-right:10px;
+	background-position: 0 0;
+	border: 1px solid #3573A8;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background-image:url(../img/sibmit_button_bg.png);
+	font-family:Arial, Helvetica, sans-serif, "Headline One";
+}
+#exam_question{
+	width:100%;
+}
+
+
